@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Fermin's backend challenge</h1>
+
+<h2>Dynamic content</h2>
+
+  <p>The DB has the following information:</p>
+  <ul>
+    <li><strong>Users:</strong> {{ num_users }}</li>
+    <li><strong>Assignatures:</strong> {{ num_assignatures }}</li>
+  </ul>
+
+{% endblock %}
